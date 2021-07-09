@@ -1,0 +1,5 @@
+spring:
+  batch.job.enabled: false # CommandLineRunner 설정 해제 CommandLineRunner는 어플리케이션 구동시점에 특정 작업이 실행될 수 있도록 해주는 역할
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:batchdb;DB_CLOSE_DELAY=-1;
